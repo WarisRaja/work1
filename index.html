@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bizfunnel - Edulancing</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      background-color: #1C90FF;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 0.75rem 5vw;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="#">
+    <img src="assets/long-logo.png" alt="Logo">
+  </a>
+  <button title="btn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item px-3"><a class="nav-link active" href="#">Home</a></li>
+      <li class="nav-item px-3"><a class="nav-link" href="#">About Us</a></li>
+      <li class="nav-item px-3"><a class="nav-link" href="#">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="d-flex gap-2">
+    <a href="signin.html" class="btn btn-outline-light">Login</a>
+    <a href="#" class="btn btn-light text-primary">Signup</a>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="container hero-container">
+    <div class="hero-left">
+      <p>Welcome to Edulancing</p>
+      <h1>Learn Digital Skills & Earn <br>Money Online</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+      <div class="hero-buttons">
+        <a href="#" class="btn btn-light text-primary fs-5">Start Learning</a>
+        <a href="#" class="btn btn-outline-light fs-5">Watch Demo <i class="ri-play-circle-fill"></i></a>
+      </div>
+    </div>
+    <div class="hero-image-container">
+      <img src="assets/girl.jpg" alt="Hero Image">
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Featured Courses -->
+<section class="py-5 feature-sec">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5 text-primary">Featured Courses</h2>
+
+    <!-- Scrollable row wrapper -->
+    <div class="scroll-cards-wrapper d-md-flex flex-wrap justify-content-center gap-2">
+
+      <!-- Course Card -->
+      <div class="scroll-card featured-card card shadow-sm border-0">
+        <div class="position-relative">
+          <img src="assets/tech.jpg" class="card-img-top" alt="Full Stack Development">
+          <span class="badge bg-primary position-absolute top-0 end-0 m-2">Tech</span>
+        </div>
+        <div class="card-body">
+          <h6 class="card-title text-primary fw-bold">Full Stack Development</h6>
+          <p class="text-primary mb-0"><i class="ri-star-line"></i> 4.8 &nbsp; <i class="ri-focus-line"></i> 12,671 Students</p>
+        </div>
+      </div>
+
+      <!-- Repeat with other cards -->
+      <div class="scroll-card featured-card card shadow-sm border-0">
+        <div class="position-relative">
+          <img src="assets/AI.jpg" class="card-img-top" alt="Machine Learning Mastery">
+          <span class="badge bg-primary position-absolute top-0 end-0 m-2">Ai</span>
+        </div>
+        <div class="card-body">
+          <h6 class="card-title text-primary fw-bold">Machine Learning Mastery</h6>
+          <p class="text-primary mb-0"><i class="ri-star-line"></i> 4.6 &nbsp; <i class="ri-focus-line"></i> 12,674 Students</p>
+        </div>
+      </div>
+
+      <div class="scroll-card featured-card card shadow-sm border-0">
+        <div class="position-relative">
+          <img src="assets/ui-ux.webp" class="card-img-top" alt="UI/UX Design Pro">
+          <span class="badge bg-primary position-absolute top-0 end-0 m-2">Design</span>
+        </div>
+        <div class="card-body">
+          <h6 class="card-title text-primary fw-bold">UI/UX Design Pro</h6>
+          <p class="text-primary mb-0"><i class="ri-star-line"></i> 4.6 &nbsp; <i class="ri-focus-line"></i> 12,547 Students</p>
+        </div>
+      </div>
+
+      <div class="scroll-card featured-card card shadow-sm border-0">
+        <div class="position-relative">
+          <img src="assets/dital marketing.jpg" class="card-img-top" alt="Digital Marketing">
+          <span class="badge bg-primary position-absolute top-0 end-0 m-2">Marketing</span>
+        </div>
+        <div class="card-body">
+          <h6 class="card-title text-primary fw-bold">Digital Marketing</h6>
+          <p class="text-primary mb-0"><i class="ri-star-line"></i> 4.7 &nbsp; <i class="ri-focus-line"></i> 13,545 Students</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Choose Your Path Section -->
+<section class="py-5 choose-sec" >
+  <div class="container">
+    <h2 class="text-center fw-bold text-primary mb-2">Choose Your Path to Success</h2>
+    <p class="text-center mb-5 text-muted">Transform your freelancing career with our comprehensive learning bundles, designed for every stage of your journey</p>
+
+    <div class="row g-4 justify-content-center">
+      <!-- Starter Bundle -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100 text-center">
+          <div class="card-body text-start">
+            <div class="mb-3">
+              <span class="fs-1 text-success"><i class="ri-focus-2-line"></i></span>
+            </div>
+            <h5 class="fw-bold">Starter Bundle</h5>
+            <p class="text-muted small">Perfect for beginners starting their freelance journey</p>
+            <h5 class="fw-bold mb-3 text-dark">₹2999 <span class="fs-6 text-muted">/ lifetime</span></h5>
+            <ul class="list-unstyled text-start mb-4">
+              <li><i class="ri-verified-badge-line"></i> 10+ Hours of Content</li>
+              <li><i class="ri-verified-badge-line"></i> Basic Project Templates</li>
+              <li><i class="ri-verified-badge-line"></i> Community Access</li>
+              <li><i class="ri-verified-badge-line"></i> Email Support</li>
+              <li><i class="ri-verified-badge-line"></i> 3 Practice Projects</li>
+            </ul>
+            <a href="#" class="btn btn-success w-100">Get Started</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Growth Bundle -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100 text-center">
+          <div class="card-body text-start">
+            <div class="mb-3">
+              <span class="fs-1 text-primary"><i class="ri-trophy-line"></i></span>
+            </div>
+            <h5 class="fw-bold">Growth Bundle</h5>
+            <p class="text-muted small">Perfect for beginners starting their freelance journey</p>
+            <h5 class="fw-bold mb-3 text-dark">₹4999 <span class="fs-6 text-muted">/ lifetime</span></h5>
+            <ul class="list-unstyled text-start mb-4">
+              <li><i class="ri-verified-badge-line"></i> 10+ Hours of Content</li>
+              <li><i class="ri-verified-badge-line"></i> Basic Project Templates</li>
+              <li><i class="ri-verified-badge-line"></i> Community Access</li>
+              <li><i class="ri-verified-badge-line"></i> Email Support</li>
+              <li><i class="ri-verified-badge-line"></i> 3 Practice Projects</li>
+            </ul>
+            <a href="#" class="btn btn-primary w-100">Get Started</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pro Bundle -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100 text-center">
+          <div class="card-body text-start">
+            <div class="mb-3">
+              <span class="fs-1 text-purple"><i class="ri-star-line"></i></span>
+            </div>
+            <h5 class="fw-bold">Pro Bundle</h5>
+            <p class="text-muted small">Perfect for beginners starting their freelance journey</p>
+            <h5 class="fw-bold mb-3 text-dark">₹7999 <span class="fs-6 text-muted">/ lifetime</span></h5>
+            <ul class="list-unstyled text-start mb-4">
+              <li><i class="ri-verified-badge-line"></i> Basic Project Templates</li>
+              <li><i class="ri-verified-badge-line"></i> 10+ Hours of Content</li>
+              <li><i class="ri-verified-badge-line"></i> Community Access</li>
+              <li><i class="ri-verified-badge-line"></i> Email Support</li>
+              <li><i class="ri-verified-badge-line"></i> 3 Practice Projects</li>
+            </ul>
+            <a href="#" class="btn btn-purple w-100">Get Started</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Elite Bundle -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card border-0 shadow-sm h-100 text-center">
+          <div class="card-body text-start">
+            <div class="mb-3">
+              <span class="fs-1 text-warning"><i class="ri-rocket-line"></i></span>
+            </div>
+            <h5 class="fw-bold">Elite Bundle</h5>
+            <p class="text-muted small">Perfect for beginners starting their freelance journey</p>
+            <h5 class="fw-bold mb-3 text-dark">₹7999 <span class="fs-6 text-muted">/ lifetime</span></h5>
+            <ul class="list-unstyled text-start mb-4">
+              <li><i class="ri-verified-badge-line"></i> 10+ Hours of Content</li>
+              <li><i class="ri-verified-badge-line"></i> Community Access</li>
+              <li><i class="ri-verified-badge-line"></i> Basic Project Templates</li<i class="ri-verified-badge-line"></i>
+              <li><i class="ri-verified-badge-line"></i> Email Support</li>
+              <li><i class="ri-verified-badge-line"></i> 3 Practice Projects</li>
+            </ul>
+            <a href="#" class="btn btn-warning text-white w-100">Get Started</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Guidance Section -->
+<section class="py-5 bg-light text-center position-relative Guidance-sec">
+  <div class="container">
+    <!-- Rating badge -->
+    <div class="mb-3" id="std-rated" >
+      <span class="badge  text-primary rounded-3 fs-6 px-3 py-2  fw-semibold">
+        <i class="ri-star-fill text-primary me-1"></i>Rated 4.9/5 by our students
+      </span>
+    </div>
+
+    <!-- Main Heading -->
+    <h2 class="fw-bold text-dark">
+      Master Digital Skills with <br>
+      <span class="text-primary">Expert Guidance</span>
+    </h2>
+
+    <!-- Sub Heading -->
+    <p class="text-muted mt-3 mb-4">
+      Transform your career with industry-leading courses designed to give you the skills that matter in today’s digital world.
+    </p>
+
+    <!-- Buttons -->
+    <div class="d-flex justify-content-center gap-3 flex-wrap">
+      <a href="#" class="btn btn-primary px-4 py-2 fw-semibold">Get Started Now →</a>
+      <a href="#" class="btn btn-outline-secondary px-4 py-2 fw-semibold">View All Courses</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- last section -->
+<section class="py-5 last-sect" >
+  <div class="container">
+    <div class="row g-4">
+      
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="bg-white p-4 rounded shadow-sm h-100">
+          <div class="mb-3">
+            <span class="fs-1 bg-info bg-secondary p-1 rounded-3">🚀</span>
+          </div>
+          <h6 class="fw-bold">Quick Start</h6>
+          <p class="text-dark small ">Begin your journey immediately with our structured learning paths</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="bg-white p-4 rounded shadow-sm h-100">
+          <div class="mb-3">
+            <span class="fs-1 bg-info p-1 rounded-3  text-primary">🎯</span>
+          </div>
+          <h6 class="fw-bold">Focused Learning</h6>
+          <p class="text-dark small ">Industry-specific courses designed for real-world application</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="bg-white p-4 rounded shadow-sm h-100">
+          <div class="mb-3">
+            <span class="fs-1 text-primary  bg-info p-1 rounded-3"><i class="ri-group-line  rounded-3 p-2  "></i></span>
+          </div>
+          <h6 class="fw-bold">Expert Community</h6>
+          <p class="text-dark small ">Learn alongside industry professionals and like-minded peers</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="bg-white p-4 rounded shadow-sm h-100">
+          <div class="mb-3">
+            <span class="fs-1 bg-info p-1 rounded-3 text-primary">🏆</span>
+          </div>
+          <h6 class="fw-bold">Certification</h6>
+          <p class="text-dark small ">Earn recognized certificates to showcase your expertise</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="container mt-5">
+    <div class="master-class row align-items-center text-white rounded-4 overflow-hidden" >
+      
+      <!-- Left Content -->
+      <div class="col-lg-6 p-5">
+        <h2 class="fw-bold mb-3">Advanced Digital Marketing<br>Masterclass</h2>
+        
+        <!-- Tags -->
+        <div class="mb-3 tags-of-masterclass d-flex flex-wrap gap-2">
+          <span class="badge fs-6 text-white px-3 py-2" >8 Weeks</span>
+          <span class="badge fs-6 text-white px-3 py-2"  >Online</span>
+          <span class="badge fs-6 text-white px-3 py-2" >Certificate</span>
+        </div>
+
+        <!-- Description -->
+        <p class="mb-4">Transform your career with industry-leading courses designed to give you the skills that matter in today’s digital world.</p>
+        
+        <!-- Button -->
+        <a href="#" class="btn btn-light text-primary fw-bold px-4 py-2">Enroll Now</a>
+      </div>
+
+      <!-- Right Image -->
+      <div class="col-lg-6 p-4 right-cont">
+        <img src="https://images.pexels.com/photos/577210/pexels-photo-577210.jpeg" alt="Digital Marketing" class="img-fluid w-100 h-100 rounded-3" >
+      </div>
+
+    </div>
+  </div>
+  <div class="container text-center py-5">
+    <h2 class="fw-bold mb-3">Student Success Stories</h2>
+    <p class="text-muted">
+      Join thousands of successful students who have transformed their careers through our programs
+    </p>
+  </div>
+</section>
+
+<!-- footer -->
+<footer class="text-light pt-5 pb-3" >
+  <div class="container">
+    <div class="row align-items-start">
+
+      <!-- Logo & Description -->
+      <div class="col-md-4 mb-4 ">
+        <img src="assets/long-logo.png" alt="Buzfunnel Logo" class="mb-3 text-light footer-logo">
+        <p class="text-light">
+          Our platform empowers learners to enhance their skills and knowledge through accessible and comprehensive learning resources.
+        </p>
+       
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Quick Links</h5>
+        <ul class="list-unstyled mt-3">
+          <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-light text-decoration-none">About Us</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Login</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Register</a></li>
+        </ul>
+      </div>
+
+      <!-- Other Links -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Other Links</h5>
+        <ul class="list-unstyled mt-3">
+          <li><a href="#" class="text-light text-decoration-none">Disclaimer</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Refund Policy</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom Text -->
+    
+  </div>
+  <div class="w-100 border border-primary m-0 p-0"></div>
+  <div class="text-center  pt-3 mt-3">
+    <small>Copyright © 2025 <span class="text-danger">Bizfunnel</span>. All rights reserved.</small>
+  </div>
+  </footer>
+</body>
+</html>
