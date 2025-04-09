@@ -67,7 +67,7 @@
   width: 86%;
   height: auto;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border-radius: 15px;
 }
 
@@ -79,7 +79,7 @@
 .feature-sec .position-relative img {
   height: 180px; /* Same height for all images */
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   width: 100%;
 }
 .feature-sec .featured-card {
@@ -177,7 +177,7 @@
 }
 .last-sect .master-class .right-cont img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 footer {
@@ -247,8 +247,10 @@ footer .footer-logo {
     padding-top: 0;
     flex-direction: column;
   }
-  .left-panel,
+  #left-panel {
+    width: 80vw;
+  }
   .right-panel {
     width: 80vw;
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
